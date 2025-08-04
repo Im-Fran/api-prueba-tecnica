@@ -5,7 +5,7 @@ import { cors } from 'hono/cors'
 
 const app = new Hono()
 app.use('/*', cors({
-  origin: ['https://prueba-tecnica.pages.dev', 'http://localhost:5173'],
+  origin: ['https://prueba-tecnica-vem.pages.dev', 'http://localhost:5173'],
   allowMethods: ['POST', 'GET', 'OPTIONS'],
 }))
 
